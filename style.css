@@ -1,0 +1,44 @@
+body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/12/20499208-huella-de-perro-sobre-fondo-blanco-ilustraci-n-vectorial-Foto-de-archivo.jpg)
+}
+
+.img1{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    border: 15px solid yellow;
+    margin: 10px;
+    box-sizing: border-box;
+    transform: scale(1);
+    transition: all .3s ease-out;
+   }
+
+.img1:hover{
+    transform: scale(1.2)    
+}
+
+.ver{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .65);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.ver .close{
+position: absolute;
+top: 20px;
+right: 20px;
+color: white;
+text-decoration: none;
+}
